@@ -22,6 +22,7 @@ for iter = 1:num_iters
     % 
     % 3 - The change in theta (the "gradient") is the sum of 
     % the product of X and the "errors vector", scaled by alpha and 1/m. 
+    % VECTORIZATION
     % Since X is (m x n), and the error vector is (m x 1), 
     % and the result you want is the same size as theta (which is (n x 1), 
     % you need to transpose X before you can multiply it by the error vector.
